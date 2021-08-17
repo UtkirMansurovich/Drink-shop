@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.containerFluid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px #666;
+}
+.navbarNav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+
+}
+li{
+    list-style-type: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 2em;
+    letter-spacing: 4px;
+}
+.logo{
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+span{
+    color: rgb(22, 240, 156);
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.row{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+    
+}
+.box{
+    box-shadow: 0 8px 16px #666;
+    min-height: 80vh;
+}
+img{
+    width: 100%;
+}
+.card{
+    padding: 5%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+p{
+    color: #666;
+}
+button{
+    padding: 0.6rem 1rem;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #476a2e;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+.mailH1{
+    margin: 3% 0;
+}
+h1{
+    letter-spacing: 2px;
+}
+h4{
+    letter-spacing: 2px;
+}
+.form{
+    width: 50%;
+    box-shadow: 0 8px 16px #666;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+input{
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgba(102, 102, 102, 0.274);
+    margin: 2% 0;
+}
+label{
+    color: #476a2e;
+    font-weight: 1000;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.containetAbout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowAbout{
+    width: 80%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.lorem{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+.buttonA{
+    color: #fff;
+}
+.containerDetails{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rowDetails{
+    width: 80%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.font{
+    background-color: #d4e6a5;
+    color: #333;
+    font-weight: 800;
+    padding: 0.3rem;
+}
